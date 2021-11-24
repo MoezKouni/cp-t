@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import bootstrap from "../../assets/bootstrap.png";
+import bootstrap from "../../assets/img/bootstrap.png";
 import Button from "../Button/Button";
 import ControleBtn from "../ControlBtn/ControleBtn";
 import "./Hero.css";

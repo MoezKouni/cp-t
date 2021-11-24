@@ -1,7 +1,7 @@
 import * as components from "./components";
 import { useSelector } from "react-redux";
-import "./App.css";
-import "./overrides.css";
+import "./assets/css/App.css";
+import "./assets/css/overrides.css";
 
 function App() {
   const state = useSelector((state: gobalStateI) => state.layout);

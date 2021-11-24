@@ -4,6 +4,7 @@
   overflow: hidden;
 }
 .card_header {
+  position: relative;
   border-radius: 8px;
   box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%), 0 0 15px rgb(0 0 0 / 6%);
 }
@@ -25,4 +26,15 @@
 }
 .price {
   text-align: right;
+}
+
+.preview-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: none !important;
+}
+
+.card:hover .preview-btn {
+  display: block !important;
 }

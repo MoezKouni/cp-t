@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
 import { useDispatch } from "react-redux";
-import { hide, moveDown, moveUp } from "../../actions/layout-actions";
+import { hide, moveDown, moveUp } from "../../redux/actions/layout-actions";
 import "./ControleBtn.css";
 import Icon from "../Icons/Icon";
 
