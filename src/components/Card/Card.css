@@ -1,0 +1,28 @@
+.card {
+  border: none !important;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.card_header {
+  border-radius: 8px;
+  box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%), 0 0 15px rgb(0 0 0 / 6%);
+}
+
+.card_header a > img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card_footer {
+  padding: 20px 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.price {
+  text-align: right;
+}

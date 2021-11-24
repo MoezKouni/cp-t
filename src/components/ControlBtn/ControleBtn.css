@@ -1,0 +1,22 @@
+.control-btns {
+  position: absolute;
+  right: 0px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.small-btn {
+  opacity: 0.5 !important;
+  color: gray !important;
+  border-color: gray !important;
+  padding: 5px !important;
+  width: 30px;
+  height: 30px;
+}
+.small-btn svg {
+  vertical-align: 1px;
+}
+.small-btn:hover {
+  color: white !important;
+  border-color: gray !important;
+  background: gray !important;
+}

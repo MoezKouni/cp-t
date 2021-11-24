@@ -1,0 +1,12 @@
+.input {
+  border: none !important;
+  transition: all 0.3s !important;
+}
+.input:focus {
+  box-shadow: none !important;
+}
+
+.search-btn {
+  border: none;
+  background: white;
+}

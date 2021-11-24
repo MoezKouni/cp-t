@@ -1,0 +1,14 @@
+.newsletter {
+  border-bottom: 1px solid #d5dce5;
+}
+.form-input {
+  background: #edf0f5;
+  max-width: 250px;
+  border: 1px solid #edf0f5;
+  padding: 8px 10px;
+  border-radius: 4px;
+  flex: 1;
+}
+.form-input:focus {
+  outline-color: #cbcfd4;
+}
